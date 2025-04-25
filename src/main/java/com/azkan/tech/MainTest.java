@@ -10,6 +10,6 @@ public class MainTest {
 		ApplicationContext ctxt=new ClassPathXmlApplicationContext("spring-beans.xml");
 		Printer print=ctxt.getBean(Printer.class);
 		print.printReceipt();
-		
+		System.out.println("End the Programm Successfully");
 	}
 }
