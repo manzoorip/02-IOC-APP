@@ -11,4 +11,6 @@ public class Printer {
 	{
 		System.out.println("Receipt is Printed");
 	}
+	int i=30;
+	System.out.println("Just for Testing Purpose"+ i);
 }
