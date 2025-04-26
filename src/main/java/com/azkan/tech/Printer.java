@@ -11,4 +11,6 @@ public class Printer {
 	{
 		System.out.println("Receipt is Printed");
 	}
+	int k=20;
+	System.out.println("Print the value of k for Testing:"+ k);
 }
